@@ -1,0 +1,31 @@
+.form {
+  margin: 40px;
+}
+.form__control {
+  margin-bottom: 16px;
+  font-family: sans-serif;
+}
+.form__submit {
+  padding: 3px;
+  background-color: black;
+  color: azure;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form__submit--sending {
+  cursor: wait;
+}
+
+.produtos {
+  display: flex;
+  grid-template-columns: repeat(1, 1fr);
+}
+.produtos__control {
+  margin: 16px;
+}
+.produtos__control h4 {
+  font-family: sans-serif;
+  color: blueviolet;
+}
+
+/*# sourceMappingURL=main.css.map */
